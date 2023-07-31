@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 2.5rem 8.5rem;
+    gap: 1.5rem;
+}
+
+.left_colum,
+.education,
+.inside_colum {
+    padding: 1rem 1.6rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.left_colum {
+    width: 44.5rem;
+}
+
+.right_colum {
+    width: 90.6rem;
+}
+
+i {
+    color: #1D5D9B;
+    font-size: 1.8rem;
+    margin-right: 1.6rem;
+}
+
+.left_colum .name {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #111;
+}
+
+.left_colum .text,
+.left_colum .skills,
+.left_colum .text_1 {
+    line-height: 3.5;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111;
+}
+
+.left_colum h2,
+.right_colum .education h2,
+.left_colum h2,
+.inside_colum h2 {
+    color: #757575;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.left_colum .skills p i {
+    font-size: 2.5rem;
+}
+
+.left_colum hr {
+    margin: 2.5rem 0;
+}
+
+.right_colum {
+    display: block;
+    gap: 1.5rem;
+}
+
+.right_colum .education {
+    margin-bottom: 1.5rem;
+}
+
+.right_colum .education .text {
+    line-height: 3.1;
+}
+
+.right_colum .education .text h3 {
+    font-size: 1.8rem;
+    color: #111;
+}
+
+.right_colum .education .text h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #111;
+}
+
+.right_colum .education .text h4 i {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+
+.right_colum .education .text p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111;
+}
+
+.left_colum h2 i,
+.inside_colum h2 i {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+.left_colum .text_1 {
+    margin-top: 1.5rem;
+}
+
+.left_colum .text_1 p:first-child i,
+.left_colum .text_1 p:nth-child(3) i,
+.left_colum .text_1 p:last-child i{
+    margin-right: 2.3rem;
+}
+
+.inside_colum .text a {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 3.5;
+    color: #1D5D9B;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width:991px) {
+    section {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:617px) {
+    section{
+        display: block;
+        width: 100%;   
+    }
+
+    .left_colum,
+    .right_colum {
+        width: 100%;
+    }
+
+    .left_colum {
+        margin-bottom: 1.5rem;
+    }
+
+    i {
+        font-size: 2.8rem;
+    }
+
+    .left_colum .text,
+    .left_colum .skills,
+    .left_colum .text {
+        font-size: 1.8rem;
+    }
+
+    .right_colum .education .text h3 {
+        font-size: 2.3rem;
+    }
+
+    .right_colum .education .text h4 {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    
+    .right_colum .education .text p {
+        font-size: 2rem;
+    }
+
+    .left_colum .text p{
+        font-size: 1.8rem;
+    }
+}
